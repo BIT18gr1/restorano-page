@@ -8,7 +8,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-iframe {
+/* iframe {
   max-width: 100%;
 }
 
@@ -30,6 +30,7 @@ h2 {
   margin-left: auto;
   padding-right: 15px;
   padding-left: 15px;
+  background-color: #f19b1a;
 }
 
 .dark-bg {
@@ -63,7 +64,7 @@ h2 {
   transition: all 0.3s;
   text-decoration: none;
   display: inline-block;
-}
+} */
 
 .button.outline {
   background: unset;
@@ -71,7 +72,7 @@ h2 {
   border: 1px solid green;
 }
 
-.button:hover {
+/* .button:hover {
   cursor: pointer;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
 }
@@ -284,4 +285,4 @@ div.image-card .content-title {
 
 .content-section-5 .object-wrapper {
   width: 49%;
-}
+} */
