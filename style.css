@@ -91,7 +91,7 @@ div.hero-box {
   display: grid;
   place-items: center;
   padding: 50px;
-  color: white;
+  color: rgb(11, 39, 4);
   text-align: center;
 }
 
