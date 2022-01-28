@@ -1,18 +1,240 @@
 <!DOCTYPE html>
-<html>
+<html lang="lt">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>niam niam</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.min.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Restoranas "Niam-niamis"</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
+    <!-- 4. Restorano interjero pradzia -->
+    <div class="container mb-3">
+      <h2 class="section-title">Restorano interjeras</h2>
+      <div class="content-section content-section-4">
+        <div class="content">
+          <h3 class="content-title">
+            Šiam interjerui buvo panaudota apie 200 durų, langų ir langinių.
+          </h3>
+          <div
+            class="carousel gallery-slider m-4"
+            data-flickity='{ "freeScroll": false, "contain": true, "pageDots": false, "prevNextButtons": false, "wrapAround": true, "autoPlay": true }'
+          >
+            <div class="carousel-cell">
+              <a
+                href="https://www.e-interjeras.lt/uploads/images/2013/08/balkiai-sijos.jpg"
+              >
+                <img
+                  src="https://www.e-interjeras.lt/uploads/images/2013/08/balkiai-sijos.jpg"
+                />
+              </a>
+            </div>
+            <div class="carousel-cell">
+              <img
+                src="https://www.e-interjeras.lt/uploads/images/2013/08/visuomeninis-interjeras1.jpg"
+              />
+            </div>
+            <div class="carousel-cell">
+              <img
+                src="https://www.e-interjeras.lt/uploads/images/2013/08/senu-duru-panaudojimas.jpg"
+              />
+            </div>
+            <div class="carousel-cell">
+              <img
+                src="https://www.e-interjeras.lt/uploads/images/2013/08/restorano-interjeras.jpg"
+              />
+            </div>
+            <div class="carousel-cell">
+              <img
+                src="https://www.e-interjeras.lt/uploads/images/2013/08/netikros-durys.jpg"
+              />
+            </div>
+            <div class="carousel-cell">
+              <img
+                src="https://www.e-interjeras.lt/uploads/images/2013/08/mix-chairs.jpg"
+              />
+            </div>
+            <div class="carousel-cell">
+              <img
+                src="https://www.e-interjeras.lt/uploads/images/2013/08/fake-door.jpg"
+              />
+            </div>
+            <div class="carousel-cell">
+              <img
+                src="https://www.e-interjeras.lt/uploads/images/2013/08/bon-corvin.jpg"
+              />
+            </div>
+          </div>
+          <p>
+            Restorano interjeras yra turbūt vienas pagrindinių kriterijų (žinoma
+            neskaitant maisto kokybės ir kainos), pagal kurį sprendžiame ar
+            grįžti ten dar kartą ar vis dėl to ne.
+          </p>
+          <p>
+            Be galo originaliai panaudotos įvairios durys, paperka visas
+            interjero atvirumas. Jausmas, lyg interjeras būtų sukurtas per
+            valandą ir bet kaip, bet nė velnio - manau teko nemažai pavargti,
+            kol projektuotojas rado tinkamo dydžio ir spalvos duris. Beje dar
+            prisidėjo ir langinių bei langų kratinys, kuris perkelia visai į
+            kitą zoną.
+          </p>
+          <p>
+            Skirtingos kėdės, vamzdžiai, raštuotos grindys - tai industrinio
+            stiliaus dvasia, kurią sušvelnina medis.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- 4. Restorano interjero pabaiga -->
 
+    <!-- 7. Kontaktines formos pradzia -->
+    <div class="container d-flex justify-content-center mb-3">
+      <form class="w-75">
+        <h2 class="section-title">Susisiekti</h2>
+        <p class="section-title">Klausimų uždavimui, užsakymams.</p>
+        <div class="row align-items-center">
+          <div class="col-sm-12 col-md-6">
+            <div class="mb-3">
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                placeholder="Vardas"
+              />
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6">
+            <div class="mb-3">
+              <input
+                type="text"
+                class="form-control"
+                id="surname"
+                placeholder="Pavardė"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-sm-12 col-md-6">
+            <div class="mb-3">
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="El. paštas"
+              />
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6">
+            <div class="mb-3">
+              <input
+                type="text"
+                class="form-control"
+                pattern="[0-9.]+"
+                id="phone"
+                placeholder="Tel. numeris"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="mb-3">
+          <textarea
+            class="form-control"
+            id="address"
+            rows="1"
+            placeholder="Kontaktinis adresas (pristatymo)."
+          ></textarea>
+        </div>
+        <div class="mb-3">
+          <textarea
+            class="form-control"
+            id="question"
+            rows="3"
+            placeholder="Klausymai, užsakymo duomenys."
+          ></textarea>
+        </div>
+        <div class="mb-3 form-check d-flex justify-content-center">
+          <input
+            type="checkbox"
+            class="form-check-input me-2"
+            id="exampleCheck1"
+          />
+          <label class="form-check-label fw-bold text-danger" for="exampleCheck1"
+            >Išsaugoti kontaktinę informacija?</label
+          >
+        </div>
+        <div class="row d-flex justify-content-center mb-3">
+          <button type="submit" class="button w-50 section-title">
+            Siųsti
+          </button>
+        </div>
+      </form>
+    </div>
+    <!-- 7. Kontaktines formos pabaiga -->
 
+    <!-- 8. footer pradzia -->
+    <div
+      class="footer fixed-bottom d-flex justify-content-center align-items-center position-relative"
+    >
+      <div
+        class="bg-dark-transperent h-50 w-75 text-center z-index-x position-absolute top-50 start-50 translate-middle"
+      >
+        <h4 class="text-white section-title mt-3">Kontaktai:</h4>
+        <h5>
+          <a href="https://www.facebook.com/" target="_blank" class="text-success"><i class="bi bi-facebook"></i></a>
+          <a href="https://www.whatsapp.com/" target="_blank" class="text-success"><i class="bi bi-whatsapp"></i></i></a>
+          <a href="https://www.instagram.com/" target="_blank" class="text-success"><i class="bi bi-instagram"></i></i></a>
+          <a href="https://twitter.com/" target="_blank" class="text-success"><i class="bi bi-twitter"></i></a>
+        </h5>
+        <p class="text-white ms-2">
+          <a href = "mailto: restoranasNiamniamis@gmail.com"><i class="bi bi-envelope text-success"></i></a>
+          restoranasNiamniamis@gmail.com
+        </p>
+        <p class="text-white ms-2">
+          <a href="https://www.google.com/maps/place/Taikos+pr.,+Klaip%C4%97da/@55.6765829,21.1651733,17z/data=!3m1!4b1!4m5!3m4!1s0x46e4dc5e7a370a21:0x990ade67cde889ae!8m2!3d55.6765829!4d21.167362" target="_blank" rel="noopener noreferrer"><i class="bi bi-house text-success"></i></a>
+           Taikos pr. 330A-25, Klaipeda.
+          Lithuania
+        </p>
+      </div>
+
+      <!-- iframe pradzia -->
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d143876.09067089713!2d21.01781072076044!3d55.705260737759666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46e4dbfae447448b%3A0x80acbc67146d87a1!2zS2xhaXDEl2Rh!5e0!3m2!1slt!2slt!4v1642944188169!5m2!1slt!2slt"
+        width="100%"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+      ></iframe>
+      <!-- iframe pabaiga -->
+    </div>
+    <!-- 8. footer pabaiga -->
+
+    <!-- script links -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.pkgd.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
     <script src="script.js"></script>
   </body>
 </html>
